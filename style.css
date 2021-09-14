@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@200;300&display=swap');
+body{
+    margin: 0px;
+    background-color: #D1FAE5;
+    font-family: 'Glory', sans-serif;
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+    margin: auto;
+    text-align: center; 
+    border: 1px solid gray;
+    background-color: #047857;
+    color: #021f17;
+    margin-top: 1rem;
+    border-radius: 7px;
+    font-weight: bold;
+}
+input{
+    
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+    border-radius: 7px;
+    border: none;
+    font-size: large;
+}
+label{
+    padding:1rem;
+    padding-bottom: 0.2rem;
+}
+button{
+    
+    margin: 1rem 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 7px;
+    background-color: #D1FAE5;
+    
+    
+    
+}
+h1{
+    text-align: center;
+}
+header{
+    background-color: #047857;
+    padding: 1rem;
+    color: #021f17;
+    /* text-decoration: 1px #064E3B underline; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+footer{
+    background-color: #047857;
+    
+    padding: 0.5rem;
+    color: #021f17;
+    border-radius: 7px;
+}  
+ 
+.foot .logo{
+    padding: 5px;
+    
+}
+
+
+#op{
+    padding: 1rem;
+    margin: 0.5rem;
+    
+}
