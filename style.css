@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@200;300&display=swap');
 body{
     margin: 0px;
-    background-color: #D1FAE5;
+    background-color: #FEE2E2;
     font-family: 'Glory', sans-serif;
     
     
@@ -12,13 +12,15 @@ body{
     width: 70vh;
     margin: auto;
     text-align: center; 
-    border: 1px solid gray;
-    background-color: #047857;
+    /* border: 1px solid gray; */
+    background-color: #991B1B;
     color: #021f17;
     margin-top: 1rem;
     border-radius: 7px;
     font-weight: bold;
+    margin-top: 45px;
 }
+
 input{
     
     margin: 0.5rem 1rem;
@@ -37,24 +39,15 @@ button{
     padding: 0.5rem;
     border: none;
     border-radius: 7px;
-    background-color: #D1FAE5;
+    background-color: #FEE2E2;
+    font-weight: bold;
+    
     
 }
 .cont{
     padding: 0rem 1rem;
 }
-.navigation{
-    background-color: #047857;
-    color: #021f17;
-    padding: 1rem;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 
-
-}
-.navigation .nav-brand{
-    font-weight: bolder;
-}
 h1{
     text-align: center;
 }
@@ -63,7 +56,7 @@ h1{
 }
 
 .footer{
-    background-color: #047857;
+    background-color: #991B1B;
     margin-bottom: 0px;
     text-align: center;
     padding: 0.5rem;
