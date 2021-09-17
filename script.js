@@ -9,7 +9,7 @@ function checkIfBirthdateIsLucky(){
     const bdate = DOB.value;
     const ln =Number(LN.value);
     const sum= checkSum(bdate);
-     
+    
     if(sum&&ln){
         
             if (sum%ln===0){
@@ -21,17 +21,21 @@ function checkIfBirthdateIsLucky(){
             }
             
    else{
-        opMessage.innerText= "Please fill both of the fields."
+        opMessage.innerText= "Please fill both of the fields or maybe you entered lucky number as less than 1."
     }
+
 }
 
 function checkSum(bdate){
 bdate =bdate.replaceAll("-", "");
 let sum= 0;
+
 for(let i=0; i<bdate.length; i++){
     sum=sum+Number(bdate.charAt(i));
     }  
+    
 return sum;
+
 }
 
 
