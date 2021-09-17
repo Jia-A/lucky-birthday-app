@@ -11,8 +11,9 @@ function checkIfBirthdateIsLucky(){
     const sum= checkSum(bdate);
     
     if(sum&&ln){
+    
         
-            if (sum%ln===0){
+         if (sum%ln===0){
                  opMessage.innerText="You have a lucky birthdate, congratsss🎉🎆🎊";
                 }
             else{
@@ -20,11 +21,12 @@ function checkIfBirthdateIsLucky(){
                 }
             }
             
-   else{
+    else{
         opMessage.innerText= "Please fill both of the fields or maybe you entered lucky number as less than 1."
+        }
     }
 
-}
+
 
 function checkSum(bdate){
 bdate =bdate.replaceAll("-", "");
